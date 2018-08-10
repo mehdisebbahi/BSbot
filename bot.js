@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By Suhaib #4272 .`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(` By 『h̲̲u̲̲』! Medox_YTᵁᴳ#0095 .`,'https://www.twitch.tv/mehdisebbahiyt');
   console.log('---------------');
   console.log('Desert Bot Is Online')
   console.log('---------------')
@@ -16,16 +16,16 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-      .addField("**:globe_with_meridians: الأوامر العامه**","** **")
-      .addField("***ping :stopwatch:**","**لـ سرعة إتصالك**")
-      .addField("***id :chart_with_downwards_trend:**","**عرض سرعه اتصال البوت**")
-      .addField("***avatar :camping:**","**لـ صور الشخص المختار**")
-      .addField("***roll :1234:**","**لـ القرعه من 1 - 100**")
-      .addField("***server :recycle:**","**لـ معلومات السيرفر**")
-      .addField("***roles :medal: **","**مسح محادثات الشات**")
-      .addField("***say :arrows_counterclockwise:**","**لـ يكرر الكلام اللى تقوله**")
-      .addField("***time :alarm_clock:**","**لـ معرفة الساعة**")
-      .addField("***date **","**لـ معرفة التاريخ**")
+      .addField("!!:globe_with_meridians: الأوامر العامه**","** **")
+      .addField("!!!ping :stopwatch:**","**لـ سرعة إتصالك**")
+      .addField("!!!id :chart_with_downwards_trend:**","**عرض سرعه اتصال البوت**")
+      .addField("!!!avatar :camping:**","**لـ صور الشخص المختار**")
+      .addField("!!!roll :1234:**","**لـ القرعه من 1 - 100**")
+      .addField("!!!server :recycle:**","**لـ معلومات السيرفر**")
+      .addField("!!!roles :medal: **","**مسح محادثات الشات**")
+      .addField("!!!say :arrows_counterclockwise:**","**لـ يكرر الكلام اللى تقوله**")
+      .addField("!!!time :alarm_clock:**","**لـ معرفة الساعة**")
+      .addField("!!!date **","**لـ معرفة التاريخ**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -40,12 +40,12 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-      .addField("**:radioactive: أوامر الأداره**","** **")
-      .addField("***bc  :mega:**","**لـ البرودكاست**")
-      .addField("***clear :octagonal_sign:**","**لـ مسح الشات**")
-	  .addField("***createcolors :cyclone:**","** لـ اضافة 110 لون**")
-      .addField("***kick  :outbox_tray:**","**لـ طرد الأعضاء**")
-      .addField("***ban  :no_entry:**","**لـ حظر الأعضاء**")
+      .addField("!!:radioactive: أوامر الأداره**","** **")
+      .addField("!!!bc  :mega:**","**لـ البرودكاست**")
+      .addField("!!!clear :octagonal_sign:**","**لـ مسح الشات**")
+	  .addField("!!!createcolors :cyclone:**","** لـ اضافة 110 لون**")
+      .addField("!!!kick  :outbox_tray:**","**لـ طرد الأعضاء**")
+      .addField("!!!ban  :no_entry:**","**لـ حظر الأعضاء**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -60,11 +60,11 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-      .addField("** 🎶 اوامر الميوزك**","** **")
-      .addField("***play :musical_note:**","**لـ تشغيل المطلوب**")
-      .addField("***stop  :musical_keyboard:**","**لـ ايقاف المطلوب**")
-      .addField("***pause :musical_score:**","**لـ ايقاف المطوب مؤقت**")
-      .addField("***resume :mute: **","**لـ تشغيل المطوب بعد التوقيف**")
+      .addField("!! 🎶 اوامر الميوزك**","** **")
+      .addField("!!!play :musical_note:**","**لـ تشغيل المطلوب**")
+      .addField("!!!stop  :musical_keyboard:**","**لـ ايقاف المطلوب**")
+      .addField("!!!pause :musical_score:**","**لـ ايقاف المطوب مؤقت**")
+      .addField("!!!resume :mute: **","**لـ تشغيل المطوب بعد التوقيف**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -79,7 +79,7 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-      .addField("** مبرمج البوت :wrench: **","**@!      i1sυнαɪв ☕ᴶᴮᴿ#4272  , @! ϻ ~ ✘_♥ ツ#2275  **")
+    .addField("** مبرمج البوت :wrench: **","**@!      i1sυнαɪв ☕ᴶᴮᴿ#4272  , @! ϻ ~ ✘_♥ ツ#2275  **")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -324,4 +324,4 @@ client.on('message', message => {
   console.log('[id] Send By: ' + message.author.username)
     }
 });
-client.login("NDI2ODc2NzA0MzMwMzUwNTk0.DkjlmA.evrQyCsIjSyDxlwZLXnGwzZP6SU");
+client.login("NDc2MzY5MzUyOTgwMTY4NzA1.Dksmiw.L7PQZrsfqiAHtAoIFQf6ahdrSCs");
