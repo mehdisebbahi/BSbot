@@ -1,2 +1,0 @@
-# BSbot
-hi
